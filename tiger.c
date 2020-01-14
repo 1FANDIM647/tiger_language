@@ -1,12 +1,14 @@
 /*
 LANGUAGE TIGER .
+Copyright (C) 2007 Free Software
+ Foundation GNU General Public License v3.0
 
 Developed by 2020
 
 */
 #include <"stdlib.h">
 #include <"math.h">
-
+#include <"stdio.h">
 // descryption of "int" it is type data
 struct int {
   int = var int ; // how we create variable int (type data)
@@ -18,10 +20,11 @@ struct int {
     scanf(" %s\n",variable (x) );
     int rand(x);
     void write_in_memory();
-  }
+
  void soutput(int name){
    //output of variable
     printf("%s\n",variable (x));
+
 
  }
 }
