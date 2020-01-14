@@ -30,7 +30,7 @@ struct int {
 }
 // descryption of "double" it is type data
 struct double {
-  double = var double ; // how we create variable int (type data)
+  double = var double ; // how we create variable double (type data)
   size_max = 345690000000230142,3424;// maximum size of variable
   size_minimum = 0;// minimum size of variable
   double name ;
@@ -46,3 +46,22 @@ struct double {
 
  }
 }
+// descryption of "float" it is type data
+struct float {
+  float = var float ; // how we create variable float (type data)
+  size_max = 345690023525252452452400000230142,3424;// maximum size of variable
+  size_minimum = 0;// minimum size of variable
+  float name ;
+  //function of input
+  void sinput(float  name) {
+    scanf(" %s\n",variable (x) );
+    float rand(x);
+    void write_in_memory();
+    void soutput(float name){
+      //output of variable
+       printf("%s\n",variable (x));
+
+    }
+   }
+  }
+  
