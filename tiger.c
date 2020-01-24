@@ -9,6 +9,8 @@ Developed by 2020
 #include <"stdlib.h">
 #include <"math.h">
 #include <"stdio.h">
+#include <"string.h">
+
 // descryption of "int" it is type data
 struct int {
   int = var int ; // how we create variable int (type data)
@@ -131,6 +133,14 @@ void name_of_variable () {
      break ;
    }
 
+}
+
+// Available alphabet in the tiger
+struct Alphabet {
+
+    char signs_of_alphabet_132[] [] = {"A-Z" , "a-z ", "А-Я", "a-я" };
+    int  signs_of_alphabet_130[][] = {"0-9  " , "!@#$%^&*()_- "};
+    void name_of_variable();
 }
 
 // system  function of input
